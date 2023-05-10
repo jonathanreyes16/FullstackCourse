@@ -145,3 +145,41 @@ review Desing patterns SSG
 understand routing
 create portfolio nextjs application
 create portfolio home page
+
+Rendering patterns 
+what is rendering
+unit of work to convert the code into the HTML representation
+
+rendering can take place on the client or the erver
+browser  or computer hosts
+
+it can happen in build time or runtime
+
+build:: series 
+
+runtime
+after app as been deployed on server
+
+4 main rendering patterns
+- Server-side redering SSR
+- Static Site generation SSG
+- Incremental static regeneration ISR
+- client-side rendering CSR
+
+pre-renderinng
+SSR and SSG are also referred as pre-Rendering because fetching of the exteral data ad trasformation of react compoent 
+into HTML happes before the result is set to the client
+in standard react the browser receives an empty HTML from the server along with JS istruccions to contruct the ui
+
+NEXTjs prerennder every page by default. thi means the html is geerated in advancce on a server, instead of having it
+all done by JS on the user browser
+
+SSG 
+the html is generated on the server but unlike ssr  there is no server at runtime. instead content is generated onnce, at buildtime
+you can use iSR to create or update static pages after youve build your site. this means youy dont have to rebuild your entire 
+site if the data changes
+
+we can statically generate pages with opr without data
+by default next js prerenders pages using static generation without fetching data
+nextjs generates a single
+

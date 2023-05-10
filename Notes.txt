@@ -1,0 +1,147 @@
+NEXT.js features
+    -static site generation
+    - Better SEO and exploring capabilities
+
+project: portfolio
+MERN (MongoDB, Express, React, Node)
+CRUD(Create, Read, Update, Delete)
+
+
+NEXT.js Introduction
+how NEXTjs 
+    - works
+    - benefits   
+    - applications
+    - production optimization
+
+- What is react
+react lets you build user interfaces out of individual pieces called components.
+When referring to user innterfaces, we are alluding to the visual elements that users interact with on their screens.
+
+React serves as a library that supplies advantageous functions for constructing UI but ultimately places the decision
+on the developer as to where to impleet those functions within their application.
+
+building a complete page takes some time.
+
+- What is next.js
+is a flexible react framework that gives you builidng blocks to create fast web applications.
+By frmawork, we mean next.js handles the toolig and configuration needed for react, and provides aditional structure,
+featuresm and optimizations for your applications.
+
+flexible react framework,, that provides the foundations to create fast web applications.
+
+- Routinng 
+a file based router build on top of server components that supports layouts, nested routing, loading states,error handling,
+and more
+
+pages
+    --about
+    --projects
+
+- Rendering
+
+- Data fetching
+simplified data fetching with async/await support in react components ad the fetching
+
+-optimizations
+comes with some build it optimizations to improve speed and core web vitals.
+enhance user experiece
+
+NEXTjs
+serverside renderinng
+React based framework
+specifically developed to imporove react.js SEO
+web applications are high performance
+
+-Use of next.js
+ecomerce:
+    with the support for server side rendering. is a excellent choice for building e-commerce websites that 
+    required fast loading times and high performance.
+
+other examples: ticketmaster, twitch, nike
+can reduce the data needed to show images
+intelingent prefetching, build in cache
+high performance - great user experience
+
+-NEXT js Basics
+
+- development and production env
+dev stage:
+    optmizes for the developer and their experience building application.
+
+    - TS
+    - ESlint
+    - Fast Refresh
+
+production stage:
+    ext.js optimizes for the end-users. and their experience usig the application. it aimms to trasform the code
+    to make it performant and accesible.
+
+    - compiled
+    - imnnified
+    - bunbled
+    - code split
+
+-
+
+- minifying
+process of removing unecessary code formating ad comments without changing the code functionality.
+the goal is to improve the application performance by decreasing file sizes.
+Faster and better user experience.
+minified automatically by NEXTjs
+
+- bundling
+is the process of resolving the web of depedencies and merging (or packaging) the files (or modules) into optimized
+bundlesfor the browser,, with the goal of reducig the number of requests for files when the user visits a webpage.
+
+- Code splitting
+is the process of spliting the applications bunlde into smaller chunks required by each etry point. The goal is to 
+improve the application initial load time by only loading the code required to run that page.
+
+- Rendering
+there is a unavoidable unit of work to convert the code you write in react into the HTML representation of your ui.
+this process is called redering. Rendering can take place o server side, cliet side rendering
+
+- CSR client side rendering
+only the barebones HTML container for a page is rendered by the server. The logic, data fetching, templating
+and routing requred to display cointet ont he page is handled by js code that executes on the client browser
+
+view the page untill the end
+
+
+serversend response> browser download JS> browser executes> site visible
+
+
+- SSR Server side rendering
+the Html of the page is generated on a server for each request. the generated HTML, json data, and javascript instructtion
+to make the page iteractive are set to the client
+
+Server sendign ready to be rendered HTML> browser reder the age, now viewable and browser download js > browser execute react > page now interectable 
+can view the page but interact once the js is download
+
+- static site generating
+the HTML is generated on the server, content is generated once, at build time, whe the application is deployed
+and the Html is stored in a CDN and reused for each request.
+
+CDN store static content (such as html)
+
+
+- when?
+CSR     
+when we want a high level of interactivity, SEO not priority
+
+SSG
+fast, secure and easy to deploy.
+static content such as blog or news website, portfolio.
+
+SSR
+improve then performance of ann application whe the user have a slower internet conection
+when we have less logic than CSR 
+
+
+DAY 2
+
+review Desing patterns SSG
+understand routing
+create portfolio nextjs application
+create portfolio home page

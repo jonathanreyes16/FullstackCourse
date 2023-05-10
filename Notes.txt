@@ -183,3 +183,15 @@ we can statically generate pages with opr without data
 by default next js prerenders pages using static generation without fetching data
 nextjs generates a single
 
+next hs a file system based router
+when a file is added to the pages directory its automatically available as a router
+
+
+home
+about
+project
+contact
+admin
+
+
+nextjs router allow to do client side routign without link using useRouter hook

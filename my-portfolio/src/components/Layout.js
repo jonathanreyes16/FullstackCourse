@@ -9,13 +9,13 @@ return (
     <Header title="jonathan">
         <Link href="/">Home</Link> 
         <Link href="/about">About</Link>
-        <Link href="/project">Project</Link>
+        <Link href="/projects">Project</Link>
         <Link href="/contact">Contact</Link>
     </Header>
     <Container fixed>
         <main>{children}</main>
     </Container>
-    <Footer />
+    <Footer /> 
     </>
 )
 }

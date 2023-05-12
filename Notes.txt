@@ -195,3 +195,16 @@ admin
 
 
 nextjs router allow to do client side routign without link using useRouter hook
+
+
+DAY3
+
+REview design patterns SSR iSR
+Understand api routes
+Create about me page (ISR)
+Create a project page (SSR)
+
+
+API Routes provide a solution to build your rest api
+// any file inside pages/api directory is apped to /api/*.
+src/pages/api/user.js is map to https://localhost:300api/user
